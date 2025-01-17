@@ -1,0 +1,132 @@
+header{
+    background-color: black;
+    width: 80%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px 50px;
+    border-radius: 15px ;
+}
+.navigation a{
+    color: rgb(255, 145, 0);
+    text-decoration: none;
+    padding: 0 15px;
+    border-radius: 15px;
+    transition: 0.9s ease;
+}
+.navigation a:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 145, 0);
+    transform: scale(1.1);
+
+}
+.section{
+    padding: 120px 15px;
+    display: flex;
+    width: 95%;
+    background-color: rgb(0, 0, 0);
+}
+.section p{
+    color: rgb(255, 145, 0);
+}
+.view-project a{
+      
+    color:rgb(0, 0, 0);
+    background-color:rgb(255, 145, 0) ;
+    text-decoration: none;
+    padding: 0 15px;
+    display: inline-block;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.1s ease;
+    
+   }
+.view-project:hover a{
+   background-color: rgba(255, 94, 0, 0.973);
+   transform: scale(1.1);
+}
+.title {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 145, 0);
+    
+    color:rgb(0, 0, 0);
+    font-size:2.2em ;
+    font-weight:800 ;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{.section{
+    padding: 100px 50px;
+    display: flex;
+    width: 95%;
+    background-color: rgb(0, 0, 0);
+}
+.section p{
+    color: rgb(255, 145, 0);
+}
+    background-color: rgb(255, 145, 0);
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgb(255, 174, 0,50%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.imeges{
+    text-align: center;
+    
+
+}
+.cards{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+.see-photo{
+    color: rgb(255, 145, 0);
+    text-decoration: none;
+    padding: 0 15px;
+    border-radius: 15px;
+    background-color: black;
+}
+.icon{
+    font-size: 4.5em;
+}
+.contact-us{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    text-align: center;
+}
+.contact-us p{
+    font-size: 1.5em;
+}
+.footer{
+    background-color: rgb(255, 145, 0);
+     
+    display: flex;
+    justify-content: space-around;
+    padding: 0.1;
+    font-size: 0.6em;
+}
+.about-us{
+    background-color: black;
+    padding: 100px 15px;
+     
+    width: 95%;
+    justify-content: space-around;
+
+    
+}
+.about-us p{
+    color: rgb(255, 145, 0);
+    font-size: 1.4em;
+}
